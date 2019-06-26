@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10598EE422C30DFE00DEEBC3 /* UIView+DDBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 10598EE322C30DFE00DEEBC3 /* UIView+DDBadge.m */; };
+		10598EE722C30E6800DEEBC3 /* UIAlertView+DDBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 10598EE622C30E6800DEEBC3 /* UIAlertView+DDBlock.m */; };
+		10598EEA22C30EE700DEEBC3 /* UILabel+DDAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 10598EE922C30EE700DEEBC3 /* UILabel+DDAttributedString.m */; };
+		10598EED22C30F8300DEEBC3 /* UIColor+DDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 10598EEC22C30F8300DEEBC3 /* UIColor+DDUtil.m */; };
+		10598EF022C3102400DEEBC3 /* UIView+DDPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 10598EEF22C3102400DEEBC3 /* UIView+DDPosition.m */; };
+		10598EF322C3118C00DEEBC3 /* UIView+DDGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 10598EF222C3118C00DEEBC3 /* UIView+DDGesture.m */; };
 		10BE0872229BA84900E13276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE0871229BA84900E13276 /* AppDelegate.m */; };
 		10BE0875229BA84900E13276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE0874229BA84900E13276 /* ViewController.m */; };
 		10BE0878229BA84900E13276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BE0876229BA84900E13276 /* Main.storyboard */; };
@@ -20,6 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10598EE222C30DFE00DEEBC3 /* UIView+DDBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DDBadge.h"; sourceTree = "<group>"; };
+		10598EE322C30DFE00DEEBC3 /* UIView+DDBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDBadge.m"; sourceTree = "<group>"; };
+		10598EE522C30E6800DEEBC3 /* UIAlertView+DDBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+DDBlock.h"; sourceTree = "<group>"; };
+		10598EE622C30E6800DEEBC3 /* UIAlertView+DDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+DDBlock.m"; sourceTree = "<group>"; };
+		10598EE822C30EE700DEEBC3 /* UILabel+DDAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+DDAttributedString.h"; sourceTree = "<group>"; };
+		10598EE922C30EE700DEEBC3 /* UILabel+DDAttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DDAttributedString.m"; sourceTree = "<group>"; };
+		10598EEB22C30F8300DEEBC3 /* UIColor+DDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DDUtil.h"; sourceTree = "<group>"; };
+		10598EEC22C30F8300DEEBC3 /* UIColor+DDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DDUtil.m"; sourceTree = "<group>"; };
+		10598EEE22C3102400DEEBC3 /* UIView+DDPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DDPosition.h"; sourceTree = "<group>"; };
+		10598EEF22C3102400DEEBC3 /* UIView+DDPosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDPosition.m"; sourceTree = "<group>"; };
+		10598EF122C3118C00DEEBC3 /* UIView+DDGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DDGesture.h"; sourceTree = "<group>"; };
+		10598EF222C3118C00DEEBC3 /* UIView+DDGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDGesture.m"; sourceTree = "<group>"; };
 		10BE086D229BA84900E13276 /* ddcategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ddcategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BE0870229BA84900E13276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10BE0871229BA84900E13276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +133,18 @@
 			children = (
 				10BE089E229BACD000E13276 /* UIButton+DDBlock.h */,
 				10BE089F229BACD000E13276 /* UIButton+DDBlock.m */,
+				10598EE222C30DFE00DEEBC3 /* UIView+DDBadge.h */,
+				10598EE322C30DFE00DEEBC3 /* UIView+DDBadge.m */,
+				10598EE522C30E6800DEEBC3 /* UIAlertView+DDBlock.h */,
+				10598EE622C30E6800DEEBC3 /* UIAlertView+DDBlock.m */,
+				10598EE822C30EE700DEEBC3 /* UILabel+DDAttributedString.h */,
+				10598EE922C30EE700DEEBC3 /* UILabel+DDAttributedString.m */,
+				10598EEB22C30F8300DEEBC3 /* UIColor+DDUtil.h */,
+				10598EEC22C30F8300DEEBC3 /* UIColor+DDUtil.m */,
+				10598EEE22C3102400DEEBC3 /* UIView+DDPosition.h */,
+				10598EEF22C3102400DEEBC3 /* UIView+DDPosition.m */,
+				10598EF122C3118C00DEEBC3 /* UIView+DDGesture.h */,
+				10598EF222C3118C00DEEBC3 /* UIView+DDGesture.m */,
 			);
 			path = uikit;
 			sourceTree = "<group>";
@@ -233,12 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10598EF322C3118C00DEEBC3 /* UIView+DDGesture.m in Sources */,
 				10BE0875229BA84900E13276 /* ViewController.m in Sources */,
 				10BE0880229BA84B00E13276 /* main.m in Sources */,
 				10BE089D229BAC7300E13276 /* NSString+DDRegex.m in Sources */,
+				10598EED22C30F8300DEEBC3 /* UIColor+DDUtil.m in Sources */,
+				10598EE422C30DFE00DEEBC3 /* UIView+DDBadge.m in Sources */,
+				10598EEA22C30EE700DEEBC3 /* UILabel+DDAttributedString.m in Sources */,
 				10BE0872229BA84900E13276 /* AppDelegate.m in Sources */,
 				10BE089C229BAC7300E13276 /* NSDate+DDExts.m in Sources */,
 				10BE08A0229BACD000E13276 /* UIButton+DDBlock.m in Sources */,
+				10598EE722C30E6800DEEBC3 /* UIAlertView+DDBlock.m in Sources */,
+				10598EF022C3102400DEEBC3 /* UIView+DDPosition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
